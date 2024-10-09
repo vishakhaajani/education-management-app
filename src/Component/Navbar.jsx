@@ -8,7 +8,7 @@ const Navbar = () => {
       <a className="navbar-brand" href="#"><h4>Education Manage</h4></a>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ms-auto">
-          <li className="nav-item"><Link className="nav-link" to="/admin">Admin</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="/">Admin</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/student">Students</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/teacher">Teachers</Link></li>
         </ul>
